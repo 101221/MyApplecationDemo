@@ -7,6 +7,7 @@ import android.content.IntentFilter;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -31,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
                 sendBroadcast(intent);
             }
         });
+        Toast.makeText(this,"dwa",Toast.LENGTH_LONG);
     }
 
     @Override
