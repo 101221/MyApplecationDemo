@@ -33,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         Toast.makeText(this,"dwa",Toast.LENGTH_LONG);
+        Toast.makeText(this,"dwa",Toast.LENGTH_LONG);
+
     }
 
     @Override
